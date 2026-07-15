@@ -1,0 +1,34 @@
+# Virtual Environments
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Serialized Models & Logs
+backend/app/model/*.pkl
+backend/app/model/metrics.json
+backend/app/dataset/spam.csv
+backend/app/dataset/cleaned_spam.csv
+.env
+
+# Node / Frontend Build
+frontend/node_modules/
+frontend/dist/
+frontend/.svelte-kit/
+frontend/.next/
+frontend/out/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
